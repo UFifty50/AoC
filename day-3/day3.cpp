@@ -18,7 +18,7 @@ void part1() {
         h1 = tmp.substr(0, tmp.length()/2);
         h2 = tmp.substr(tmp.length()/2, tmp.length());
         c = h1[h1.find_first_of(h2)];
-        res += (c <= 90) ? c- 38 : c - 96;
+        res += (c <= 90) ? c - 38 : c - 96;
     }
     std::cout << res << std::endl;
 }
